@@ -71,6 +71,18 @@ body {
         bottom: 10px;
         width: 70vw;
     }
+    .widget-btn {
+        background-color: $text-color;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        
+        &:hover {
+            background-color: lightblue;
+            color: $text-color;
+        }
+    }
 }
 
 .header {

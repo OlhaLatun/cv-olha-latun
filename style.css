@@ -61,6 +61,16 @@ body a:hover {
   bottom: 10px;
   width: 70vw;
 }
+.widget .widget-btn {
+  background-color: #33558B;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.widget .widget-btn:hover {
+  background-color: lightblue;
+  color: #33558B;
+}
 
 .header-nav-list {
   background-color: #fcb8ae;
