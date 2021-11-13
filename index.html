@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olha Latun | Web Developer</title>
+
+</head>
+<body>
+    <aside id="widget" class="widget">
+        <h1 class="widget-title">Приветствую!</h1>
+        <p class="widget-description">Чтобы увидеть резюме, введи свое имя</p>
+        <form class="widget-form" name="myform" onSubmit="return handleForm(this)">
+            <input class="widget-input" type="text" placeholder="Как тебя зовут?">
+        </form>
+    </aside>
+    <header class="visible header" >
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li> <a href="#skills">Скилы</a></li>
+                <li> <a href="#education">Образование</a></li>
+                <li> <a href="#projects">Проекты</a></li>
+                <li> <a href="#experience">Опыт</a></li>
+                <li><a href="#contacts"><i class="fas fa-phone-alt"></i> </a></li>
+            </ul>
+        </nav>
+        <section class="header-content">
+            <div> <img src="./assets/my-pic.jpg" alt="my portrait"></div>
+            <div class="header-content-text">
+                <h1 id="headerTitle"> Привет, {Имя} </h1>
+                <p>Давай знакомиться</p>
+                <h2>Меня зовут Оля</h2>
+                <p>Я начинающий web dev</p>
+                <p>На этой странице ты узнешь о моем опыте, </p>
+                <p> образовании и немножко о моей personality </p>
+                <p>Enjoy!</p>
+            </div>
+        </section>
+    </header>
+    <main class="visible main-container" >
+        <section class="main-section skill" id="skills">
+            <h2>Вот, что я умею</h2>
+        </section>
+        <section class="main-section" id="education">
+            <h2>Я получала знания тут</h2>
+            <article class="education"></article>
+        </section>
+        <section class="main-section" id="projects">
+            <h2>Теперь я могу делать </h2>
+            <div class="project"></div>
+            <p class="project-ps">Больше проектов на <a href="https://github.com/OlhaLatun">GitHub</a></p>
+        </section>
+        <section class="main-section experience" id="experience">
+            <h2>Какой я человек</h2>
+            <ul>
+                <li>Исполнительная: редко валю дедлайны</li>
+                <li>Умею быстро находить информацию и учиться</li>
+                <li>Люблю работать в команде и самостоятельно (но лучше в команде)</li>
+                <li>Чту и восхищаюсь SCRUM</li>
+                <li>Могу нудить по пустякам</li>
+                <li>Люблю делать полезные веб-приложения</li>
+                <li>А еще читаю книги, обожаю ходить в горы, занимаюсь плаванием</li>
+            </ul>
+
+        </section>
+        <section class="main-section feedback">
+            <h2>Ну что, как тебе мое резюме?</h2>
+            <div class="assess-container">
+                <i class="fas fa-smile-beam" id="good"></i>
+                <i class="fas fa-meh" id="ok"></i>
+                <i class="fas fa-frown" id="bad"></i>
+            </div>
+            <div class="assess-result">
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer visible" id="contacts" >
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/olha-latun-b666b61b3/">LinkedIn</a></li>
+                <li><a href="https://github.com/OlhaLatun">GitHub</a></li>
+                <li><a href="mailto:olha.latun@gmail.com"> olha.latun@gmail.com</a></li>
+                <li><a href="tel:+380976063541">+38(097)-606-35-41</a></li>
+            </ul>
+            
+        </nav>
+    </footer>
+    <script src="https://kit.fontawesome.com/b9c2721943.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
